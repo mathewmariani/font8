@@ -32,3 +32,4 @@ The nth pixel in a row, of a specific glyph, can be accessed using a right-shift
 Font | Author
 -----|--------
 [`font8`](font8.h?raw=1) | Mathew Mariani <mat.mariani@hotmail.com>
+[`font`](font.h?raw=1) | Mathew Mariani <mat.mariani@hotmail.com>
