@@ -27,5 +27,12 @@ int main(int argc, char** argv) {
       , (*(font_h + i + j * 8) >> 7) & 1 ? 'x' : ' ');
   }
 
+  for (int y = 0; y < 8; ++y) {
+    for (int x = 0; x < 8; ++x) {
+      printf("%c", (*(font_h + y + j * 8) >> x) & 1 ? 'x' : ' ');
+    }
+    printf("\n");
+  }
+
   return 0;
 }

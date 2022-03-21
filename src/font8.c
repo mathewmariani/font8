@@ -31,7 +31,7 @@
 
 static void print_cell(FILE *file, int *grid, int cx, int cy) {
   for (int y = 0; y < 8; ++y) {
-  	int b = 0b00000000;
+    int b = 0b00000000;
     for (int x = 7; x >= 0; --x) {
       int i = (x + (cx * 8)) + 128 * (y + (cy * 8));
       b |= *(grid + i) << x;
